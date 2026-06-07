@@ -1,25 +1,10 @@
 # Credit Card Fraud Detection App built with Streamlit, FastAPI and Docker
 
-[![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/sklearn-darkorange.svg?style=flat&logo=scikit-learn&logoColor=white)](http://www.pytorch.org/news.html)
-[![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](https://lung-cancer-api.herokuapp.com/docs)
-[![Framework](https://img.shields.io/badge/Streamlit-red.svg?style=flat&logo=streamlit&logoColor=white)](https://share.streamlit.io/nneji123/lung-cancer-prediction/main)
-![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
-![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
-![reposize](https://img.shields.io/github/repo-size/Nneji123/Credit-Card-Fraud-Detection)
 
-An end-to-end Machine Learning Project carried out by Group 3 Zummit Africa AI/ML Team to detect fraudulent credit card transactions. Built with FastAPI, Streamlit and Docker.
 
-## Contributors
-- **NNEJI IFEANYI DANIEL**
-- **IFEZUE TOONNAEMEKA HILARY**
-- **SOMTOCHUKWU OGUCHIENTI**
-- **KACHUKWU OKOH**
+An end-to-end Machine Learning Project  to detect fraudulent credit card transactions. Built with FastAPI, Streamlit and Docker.
 
-You can check out the article on Medium describing in detail how this project was carried out.
 
-https://medium.com/mlearning-ai/credit-card-fraud-detection-2527ca04c3de
 
 ## Problem Statement
 Credit card fraud is an inclusive term for fraud committed using a payment card, such as a credit card or debit card. The purpose may be to obtain goods or services or to make payment to another account, which is controlled by a criminal.
