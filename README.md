@@ -91,7 +91,7 @@ You should now be able to view the API by clicking on the generated link.
 </details>
 
 <details> 
-  <summary><b>💻\ Running the Streamlit App on Google Colab</b></summary>
+  <summary><b>\ Running the Streamlit App on Google Colab</b></summary>
 
 The Streamlit App can also be viewed using Google Colab by doing the following:
 1. Copy the contents of "streamlit_app.py" to an empty cell and at the top of cell write the following code and run the cell.
@@ -151,49 +151,4 @@ docker-compose logs
 The **docker-compose** method can also be used to deploy the API and Streamlit app on Heroku(using Dockhero which is not free) or using cloud services such as Microsoft Azure, Amazon Web Services or Google Cloud Platform.
 
 
-
-## Deployment
-The API and Streamlit App have both been deployed using the dockerfile on heroku and Streamlit Cloud respectively.
-
-<details> 
-  <summary><b>💻 Deploying the API</b></summary>
-Assuming you have git and heroku cli installed just carry out the following steps:
-
-1. Clone the repository
-
-```
-git clone https://github.com/Nneji123/Credit-Card-Fraud-Detection.git
-```
-
-2. Change the working directory
-
-```
-cd Credit-Card-Fraud-Detection
-```
-
-3. Create the heroku app
-
-``` 
-heroku create your-app-name 
-```
-
-Replace **your-app-name** with the name of your choosing.
-
-4. Set the heroku cli git remote to that app
-
-```
-heroku git:remote your-app-name
-```
-
-5. Set the heroku stack setting to container
- 
-```
-heroku stack:set container
-```
-
-6. Push to heroku
-```
-git push heroku main
-```
-</details>
 
